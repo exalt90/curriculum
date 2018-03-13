@@ -12,7 +12,7 @@ const solution = (a, b, c) => {
   {
   return a;
   }
-  else if (b>a && b>c)
+  if (b>a && b>c)
   {
   return b;
   }
