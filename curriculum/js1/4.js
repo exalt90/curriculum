@@ -7,13 +7,11 @@
  */
 
 const solution = (x,b,str= "",i=0) => {
-  if(x === i)
-  {
-   return str;
+  if(x === i){
+     return str;
   };
 
-  str = b  + str
-  return solution(x,b,str,i+1);
+  return solution(x,b,str+b,i+1);
 };
 
 module.exports = {
