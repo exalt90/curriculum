@@ -10,9 +10,7 @@ const solution = (x, str="",i=0) => {
     return str;
   };
 
-  str = str + "hello";
-
-  return solution(x, str, i+1);
+  return solution(x, str + "hello", i+1);
 };
 
 module.exports = {
